@@ -1,0 +1,88 @@
+html{
+  background-image: url(../画像ap/部室.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+body{
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+  width: 600px;
+	height: 500px;
+}
+
+
+table{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+th{
+  padding: 15px 0px 15px 0px;
+}
+td{
+  padding-left: 30px;
+}
+h1{
+  margin-left: 50px;
+}
+h4{
+  color:#FE2E2E;
+  text-align: center;
+}
+input{
+  background-color: rgba(255,255,255,0.5);
+  outline:none;
+  border-radius: 10px;
+}
+
+input[type="password"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+input[type="text"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+/*ボタン*/
+.share_btn2{
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+	  margin:2px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 14px;
+	  color:white;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .3s;
+}
+.share_btn2 .fa {line-height:50px}
+.share_btn2:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.share_btn2.shtw {background: #22b8ff;
+  border-style: none;
+  margin-left: 200px;
+}
+.share_btn2.shfb {background: #90ee90;
+  margin-left: 40px;
+}
+.share_btn2.shbk {background: #6680d8;
+  margin-left: 40px;
+}

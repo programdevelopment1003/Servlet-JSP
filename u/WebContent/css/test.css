@@ -1,0 +1,173 @@
+#login{
+  background-image: url(../画像ap/5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*画像ap/1.jpg*/
+#login body{
+
+  height: 100vh;
+  width: 100%;
+}
+.button,.button2{
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+.sample6{
+  background: rgba(255,255,255,0.5);
+	position: absolute;
+  box-shadow: 10px 10px 15px -10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 600px;
+	height: 400px;
+}
+#login h1{
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#idpass{
+  margin-left: 50px;
+  font-size: 25px;
+}
+#idpass th,td{
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+#idpass input{
+  background: rgba(255,255,255,0.5);
+}
+/*background: #02111d; /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #02111d, #037bb5, #02111d); /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #02111d, #037bb5, #02111d);*/
+
+#login2{
+  background-image: url(../画像ap/6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#login2 body{
+
+  height: 100vh;
+  width: 100%;
+}
+#login2 h1,h4{
+  color:#FE2E2E
+}
+#login2 h1{
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#login2 h4{
+  margin-top: 0px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+
+}
+
+#login3{
+  background-image: url(../画像ap/エラー背景3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#login3 h1{
+  color:#DF0101;
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+#login3 .sample6{
+  background: rgba(255,255,255,0.5);
+	position: absolute;
+  box-shadow: 10px 10px 15px -10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 600px;
+	height: 200px;
+}
+
+
+/*ログインと新規登録ボタン*/
+.share_btn2{
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+	  margin:2px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 14px;
+	  color:white;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .3s;
+    margin-left: 220px;
+}
+.share_btn2 .fa {line-height:50px}
+.share_btn2:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.share_btn2.shtw {background: #22b8ff;
+  border-style: none;
+  margin-top: 10px;
+}
+.share_btn2.shfb {background: #6680d8;
+  margin-top: 10px;
+}
+
+#start{
+	background-image: url(../画像ap/ui.jpg);
+	background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#start p{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 300px;
+	height: 250px;
+}
+
+#start a{
+	margin-top:200px
+}
+
+.square_btn {
+	width:300px;
+	height:50px;
+	background-color:#ffffff;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #F5A9D0;
+    border: solid 4px #F5A9D0;
+    border-radius: 3px;
+    transition: .4s;
+    font-size:32px;
+    letter-spacing: 0.5em;
+}
+
+.square_btn:hover {
+    background: #F5A9D0;
+    color: white;
+}
